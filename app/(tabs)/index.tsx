@@ -1,9 +1,9 @@
-import { StyleSheet, Text, View } from "react-native";
+import {StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.content}>Edit app/index.tsx to edit this screen. Himal</Text>
+      <Text style={styles.content}>Edit app/index.tsx to edit this screen.</Text>
     </View>
   );
 }
@@ -13,10 +13,9 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "red",
+    gap: 20,
   },
   content:{
-    fontSize: 29,
-    color: "white",
+    fontSize: 15,
   }
 });
