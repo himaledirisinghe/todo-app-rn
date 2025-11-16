@@ -86,7 +86,7 @@ const darkColors: ColorScheme = {
 };
 
 const useTheme = () => {
-
+  return(
 }
 
 export default useTheme
