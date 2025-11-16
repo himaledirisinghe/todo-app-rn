@@ -13,9 +13,14 @@ const TabLayout = () => {
                     borderTopWidth: 1,
                     borderTopColor: "yellow",
                     height: 90,
-                    paddingBottom: 20,
-                    paddingTop:12,
-                }
+                    paddingBottom: 0,
+                    paddingTop:15,
+                },
+                tabBarLabelStyle:{
+                    fontSize: 12,
+                    fontWeight: "600",
+                },
+                headerShown: false,
             }}
         >
             <Tabs.Screen
